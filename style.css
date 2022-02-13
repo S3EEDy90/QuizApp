@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #bdc3c7;
+    font-family: 'Redressed', cursive;
+    margin: 0;
+}
+
+.quiz-container{
+background-color: #334d50;
+margin:50px auto;   
+padding: 50px;
+min-width: 50%;
+max-width: 100%;
+min-height: 50%;
+
+box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    
+    
+}
+ul li label {cursor: pointer;}
+button{
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.7rem;
+    
+}
